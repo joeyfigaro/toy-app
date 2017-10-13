@@ -10,6 +10,10 @@ gem 'jbuilder',     '2.7.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
+  gem 'guard'
+  gem 'minitest'
+  gem 'guard-minitest'
+  gem 'minitest-reporters'
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
